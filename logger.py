@@ -3,7 +3,7 @@ import logging
 
 logging.basicConfig(encoding='utf-8', level=logging.DEBUG)
 # 创建日志记录器
-logger = logging.getLogger('picaway_logger')
+logger = logging.getLogger('logger')
 
 # 创建控制台处理器
 console_handler = logging.StreamHandler()

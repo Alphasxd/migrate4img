@@ -37,4 +37,4 @@ serialized_list = [match.to_dict() for match in matches]
 json.dump(serialized_list,output_file,indent=4,ensure_ascii=False)
 # 关闭输出文件
 output_file.close()
-logger.info("Image scanning completed. Please check if there are any images that do not need to be migrated, and then execute the migrate script for uploading.")
+logger.info("Image scanning completed.")

@@ -1,12 +1,12 @@
 scan:
   # 扫描路径
-  directory: "/Users/niko/Projects/blog/_posts/"
+  directory: "D:\\Projects\\blog\\_posts\\"
   match: 
     # 匹配Markdown文件的正则表达式
     md_regex: ".*\\.md$"
     # 匹配图片链接的正则表达式
     # pic_regex = re.compile(r"!\[.*\]\((.*?)\)")
-    pic_regex: "!\\[.*?\\]\\((.*?(?:gitlab\\.com).*?)\\)"
+    pic_regex: "!\\[.*?\\]\\((.*?(?:imag3s\\.pages.dev).*?)\\)"
     # 扫描结果文件
     result_filepath: "output.json"
 migrate:
